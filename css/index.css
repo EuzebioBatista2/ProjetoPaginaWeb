@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'fornato';
+    src: url('../font/Fonarto.ttf');
+}
+@font-face {
+    font-family: 'roboto';
+    src: url('../font/Roboto-Regular.ttf');
+}
+
+header {
+    height: 100px;
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(67, 67, 67));
+}
+.fontPrincipal {
+    font-family: 'fornato', sans-serif;
+    color: whitesmoke;
+    font-size: 3.4em;
+    margin: 0;
+}
+.fontParagrafo {
+    font-family: 'fornato';
+    color: rgb(126, 126, 126);
+    font-size: 1.0em;
+    margin: 0;
+}
+
+.conteudo {
+    min-height: 550px;
+}
+
+footer {
+    height: 50px;
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(67, 67, 67));
+}
+.fontFooter {
+    font-family: 'roboto';
+    color: whitesmoke;
+    font-size: 1.3em;
+    text-align: right;
+    margin: 0 10px 0 0;
+    
+}
+
+.fontList {
+    font-family: 'roboto';
+    color: rgb(29, 28, 28);
+    font-size: 1.1em;
+}
+
+div {
+    text-align: center;
+}
+
+img {
+    width: 60%;
+}
+
+.animacao {
+    display: flex;
+    background: #0d6efd;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+a {
+    width: 160px;
+    padding: 0;
+}
+
+.espaco {
+    margin-bottom: 20px;
+}
+
+.pValor {
+    margin: 0;
+}
+
+li {
+    text-align: left;
+}
+
+#emoji {
+    position: relative;
+}
+
+@media(max-width: 992px) {
+    a {
+        width: 80%;
+        padding: 0;
+    }
+    img {
+        width: 100%;
+    }
+    .fontPrincipal {
+        font-family: 'fornato', sans-serif;
+        color: whitesmoke;
+        font-size: 2.4em;
+        margin: 0;
+    }
+    .fontParagrafo {
+        font-family: 'fornato';
+        color: rgb(126, 126, 126);
+        font-size: 1.0em;
+        margin: 0;
+    }
+    .fontList {
+        font-family: 'roboto';
+        color: rgb(29, 28, 28);
+        font-size: 0.8em;
+    }
+}

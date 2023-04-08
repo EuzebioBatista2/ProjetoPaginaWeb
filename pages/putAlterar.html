@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+    <div class="row">
+        <div class="col-12 d-flex">
+            <div class="ml-auto">
+                <h1  class="text-align-left"><i class="fa fa-pencil"></i> Alterar usuários</h1>
+            </div>
+        </div>
+    </div>
+
+    <form id="myFormulario">
+        <div class="row">
+            <div class="col-6">
+                <input type="text" class="form-control espaco" placeholder="Nome" id="nome">
+            </div>
+            <div class="col-6">
+                <input type="text" class="form-control espaco" placeholder="Sobrenome" id="sobrenome">
+            </div>
+            <div class="col-12">
+                <input type="email" class="form-control espaco" placeholder="Email" id="email">
+            </div>
+            <div class="col-6">
+                <input type="password" class="form-control espaco" placeholder="Senha" id="senha">
+            </div>
+            <div class="col-6">
+                <select id="input" class="form-select">
+                    <option selected>Estado</option>
+                    <option>Bahia</option>
+                    <option>Pernambuco</option>
+                    <option>Paraíba</option>
+                    <option>São Paulo</option>
+                    <option>Rio de Janeiro</option>
+                </select>
+            </div>
+            <div class="col-12 d-flex">
+                <div class="ml-auto">
+                    <input class="form-check-input espaco" type="checkbox" id="termo">
+                    <label class="form-check-label" for="gridCheck1">
+                            Aceite os termos de responsabilidade.
+                    </label>
+                </div>
+            </div>
+            <div class="col-12 d-flex">
+                <div class="ms-auto">
+                    <button type="submit" class="btn btn-primary" onclick="mudar(event)">Alterar</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</html>

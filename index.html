@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css?v=1">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body class="container-fluid">
+    <header class="row">
+        <div class="col-2 align-self-center">
+            <img src="./logo/LogoProjeto.png" alt="MyLogo">
+        </div>
+        <div class="col-10 align-self-center">
+            <div>
+                <h1 class="fontPrincipal"><i class="fa fa-code"></i> Métodos XMLHttp</h1>
+                <p class="fontParagrafo">Usando os conceitos básicos: GET, POST, PUT e REMOVE</p>
+            </div>
+        </div>
+    </header>
+    
+    <div class="row conteudo">
+        <div class="col-2 p-0">
+            <div class="animacao">
+                <img src="./emojis/1.png" alt="emoji" id="emoji">
+            </div>
+        </div>
+        <div class="col-10 ">
+            <nav class="row d-flex pt-3">
+                <div class="col-lg-3 col-md-6 col-sm-12 p-0 mb-2">
+                    <a onclick="getPagina(event)" class="btn btn-primary" id="disparar">Get</a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 p-0 mb-2">
+                    <a onclick="cadastro(event)" class="btn btn-primary">Post</a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 p-0 mb-2">
+                    <a onclick="putBase(event)" class="btn btn-primary">Put</a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 p-0 mb-2">
+                    <a onclick="remover(event)" class="btn btn-primary">Remove</a>
+                </div>
+            </nav>
+            <div class="col-12">
+                <hr>
+            </div>
+            <section class="col-12" id="link">
+            </section>
+        </div>
+    </div>
+    <footer class="row">
+        <div class="col-12 align-self-center">
+            <h1 class="fontFooter">Desenvolvido por <strong>Euzebio</strong> <i class="fa fa-smile-o"></i></h1>
+        </div>
+    </footer>
+    <script src="./js/navegacao.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./js/emoji.js"></script>
+
+</body>
+</html>

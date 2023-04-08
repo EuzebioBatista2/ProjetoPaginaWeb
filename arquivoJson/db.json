@@ -1,0 +1,49 @@
+{
+  "usuarios": [
+    {
+      "nome": "Pedro",
+      "sobrenome": "Daniel",
+      "email": "pedro@email.com",
+      "senha": "123456",
+      "cidade": "Pernambuco",
+      "termo": true,
+      "id": 1
+    },
+    {
+      "nome": "Euzebio",
+      "sobrenome": "batista",
+      "email": "euzebio.batista@euzebio.com",
+      "senha": "56456465",
+      "cidade": "Paraíba",
+      "termo": true,
+      "id": 2
+    },
+    {
+      "nome": "Maria",
+      "sobrenome": "Ednaldo",
+      "email": "Maria@email.com",
+      "senha": "dffhgfhgfhgf",
+      "cidade": "Bahia",
+      "termo": true,
+      "id": 3
+    },
+    {
+      "nome": "Igor",
+      "sobrenome": "Lopes Cabral",
+      "email": "igor@email.com",
+      "senha": "432490328",
+      "cidade": "Rio de Janeiro",
+      "termo": true,
+      "id": 4
+    },
+    {
+      "nome": "Lucas",
+      "sobrenome": "Marcos",
+      "email": "Lucas@email.com",
+      "senha": "5675hgfhgf",
+      "cidade": "Pernambuco",
+      "termo": true,
+      "id": 5
+    }
+  ]
+}
