@@ -86,7 +86,36 @@ li {
     position: relative;
 }
 
-@media(max-width: 992px) {
+@media(max-width: 576px) {
+    a {
+        width: 80%;
+        padding: 0;
+    }
+    img {
+        width: 100%;
+    }
+    .fontPrincipal {
+        font-family: 'fornato', sans-serif;
+        color: whitesmoke;
+        font-size: 1.5em;
+        margin: 0;
+    }
+    .fontParagrafo {
+        font-family: 'fornato';
+        color: rgb(126, 126, 126);
+        font-size: 0.6em;
+        margin: 0;
+    }
+    .fontList {
+        font-family: 'roboto';
+        color: rgb(29, 28, 28);
+        font-size: 0.8em;
+        overflow-wrap: break-word;
+    }
+    
+}
+
+@media(min-width: 577px) and (max-width: 992px) {
     a {
         width: 80%;
         padding: 0;

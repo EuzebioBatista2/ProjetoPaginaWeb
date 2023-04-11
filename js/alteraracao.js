@@ -149,7 +149,6 @@ export function mudar(event) {
     }
     const dados = JSON.stringify(objeto)
     xhr.send(dados)
-    putSucess(event)
 }
 // FIM Evento alterando cadastro
 
