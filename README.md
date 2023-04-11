@@ -30,7 +30,7 @@ O projeto tem como intuito de criar uma página que realize os procedimentos de 
 * 2.0.0
     * START: Lançando versão com o conteúdo organizado.
 * 1.2.0
-    * CHANGE: Comentarios e separação do conteúdo finalizada.
+    * CHANGE: Comentarios e separação do conteúdo finalizados.
 * 1.1.1
     * CHANGE: Comentando e separando conteúdo.
 * 1.0.0
