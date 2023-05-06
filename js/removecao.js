@@ -111,7 +111,6 @@ export function excluir(event, id) {
 
 export function excluirSucess(event) {
     event.preventDefault()
-    console.log("entreiii")
     const urlPagRemove = "http://localhost:8080/pages/remocaoSucesso.html"
     var xhr = new XMLHttpRequest()
     xhr.open("GET", urlPagRemove)
