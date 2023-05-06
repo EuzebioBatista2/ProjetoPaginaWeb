@@ -102,10 +102,26 @@ export function excluir(event, id) {
     const urlRemove = url + '/' + id
     var confirma = window.confirm("Tem certeza que deseja continuar?");
     if (confirma) {
-        xhr.open("DELETE", urlRemove)
+        xhr.open("DELETE", urlRemove, true)
         xhr.setRequestHeader('Content-Type', 'application/json')
         xhr.send()
     }
+    
+}
+
+export function excluirSucess(event) {
+    event.preventDefault()
+    console.log("entreiii")
+    const urlPagRemove = "http://localhost:8080/pages/remocaoSucesso.html"
+    var xhr = new XMLHttpRequest()
+    xhr.open("GET", urlPagRemove)
+    xhr.setRequestHeader('Content-Type', 'application/json')
+    if(xhr.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            document.getElementById('link').innerHTML = this.responseText
+        }
+    })
+    xhr.send()
 }
 
 

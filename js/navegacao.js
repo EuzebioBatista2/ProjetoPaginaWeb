@@ -1,6 +1,6 @@
 import { cadastro, enviar, sucesso } from "./cadastros.js";
 import { putBase, alterar, mudar, putSucess } from "./alteraracao.js";
-import { remover, excluir } from "./removecao.js"
+import { remover, excluir, excluirSucess } from "./removecao.js"
 import { getPagina } from "./infoUsers.js";
 
 
@@ -82,7 +82,7 @@ const observar = new MutationObserver(() => {
     Array.from(removerCadastro).map(link => {
       link.addEventListener("click", function(event) {
         excluir(event, this.id)
-        remover(event)
+        excluirSucess(event)
       })
     })
   }
